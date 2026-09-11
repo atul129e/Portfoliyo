@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFDF8"/>
+      <stop offset="100%" stop-color="#F4EBDD"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F6B36A"/>
+      <stop offset="100%" stop-color="#E58B45"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="12" y="12" width="488" height="488" rx="112" fill="url(#bg)"/>
+  <rect x="28" y="28" width="456" height="456" rx="96"
+        fill="none" stroke="#D6D0C7" stroke-width="3"/>
+
+  <!-- A -->
+  <path d="M126 373 L244 122 L294 122 L356 373 L312 373 L294 319 L193 319 L169 373 Z
+           M211 278 L279 278 L248 193 Z"
+        fill="#3F3D3A"/>
+
+  <!-- J -->
+  <path d="M318 137 H390 V300
+           C390 353 361 383 309 383
+           C278 383 252 370 235 346
+           L266 317
+           C277 333 290 341 308 341
+           C330 341 342 329 342 301
+           V180 H318 Z"
+        fill="url(#accent)"/>
+
+  <!-- subtle connecting stroke -->
+  <path d="M151 354 C211 313 270 277 373 222"
+        fill="none" stroke="#E9A15B" stroke-width="12"
+        stroke-linecap="round" opacity=".9"/>
+</svg>
